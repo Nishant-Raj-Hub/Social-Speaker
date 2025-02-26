@@ -17,7 +17,7 @@ const OurOffering = () => {
                 <span className="text-[#a2ff00]  text-6xl font-bold">R</span>
               </div>
 
-              <span className="text-[#a2ff00] font-semibold mb-4 text-xl tracking-wider">
+              <span className="bg-gradient-to-r from-red-200 to-red-700 text-transparent bg-clip-text font-semibold mb-4 text-xl tracking-wider">
                 HIRE US TO DO IT FOR YOU
               </span>
 
@@ -32,7 +32,7 @@ const OurOffering = () => {
                 smell fantastic *wink*.
               </p>
 
-              <button className="bg-[#a2ff00] text-black font-semibold px-8 py-3 rounded-full mb-8 hover:bg-[#8ce600] transition-colors">
+              <button className="bg-gradient-to-r from-red-400 to-red-700 text-white font-semibold px-8 py-3 rounded-full mb-8 hover:from-red-600 hover:to-red-800 transition-colors">
                 Get Started
               </button>
 
@@ -41,10 +41,10 @@ const OurOffering = () => {
                   {[...Array(4)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-4 h-4 fill-[#CCFF00] text-[#CCFF00]"
+                      className="w-4 h-4 fill-red-500 text-red-500"
                     />
                   ))}
-                  <StarHalf className="w-4 h-4 fill-[#CCFF00] text-[#CCFF00]" />
+                  <StarHalf className="w-4 h-4 fill-red-500 text-red-500" />
                 </div>
                 <span className="text-zinc-300">
                   4.5 stars out of 383 reviews
@@ -58,7 +58,7 @@ const OurOffering = () => {
                 <span className="text-purple-500 text-6xl font-bold">S</span>
               </div>
 
-              <span className="text-[#a2ff00] font-semibold mb-4 text-xl tracking-wider">
+              <span className="bg-gradient-to-r from-red-200 to-red-700 text-transparent bg-clip-text font-semibold mb-4 text-xl tracking-wider">
                 LEARN HOW TO DO IT YOURSELF
               </span>
 
@@ -72,7 +72,7 @@ const OurOffering = () => {
                 and eight figures FAST (in months, not years).
               </p>
 
-              <button className="bg-[#a2ff00] text-black font-semibold px-8 py-3 rounded-full mb-8 hover:bg-[#8ce600] transition-colors">
+              <button className="bg-gradient-to-r from-red-400 to-red-700 text-white font-semibold px-8 py-3 rounded-full mb-8 hover:from-red-600 hover:to-red-800 transition-colors">
                 Get Started
               </button>
 
@@ -81,7 +81,7 @@ const OurOffering = () => {
                   {[...Array(5)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-4 h-4 fill-[#CCFF00] text-[#CCFF00]"
+                      className="w-4 h-4 fill-red-500 text-red-500"
                     />
                   ))}
                 </div>

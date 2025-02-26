@@ -39,7 +39,7 @@ const AboutUs = () => {
                 The Rocky Saggoo Method isn't just about theory; it's about practical, actionable strategies that deliver real results.  It's a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
 
               </span>{" "} */}
-              <p className="bg-gradient-to-r leading-7 from-green-500 to-green-300 text-transparent bg-clip-text text-lg">The Rocky Saggoo Method isn't just about theory; it's about practical, actionable strategies that deliver real results.  It's a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
+              <p className="bg-gradient-to-r leading-7 from-red-500 to-slate-200 text-transparent bg-clip-text text-lg">The Rocky Saggoo Method isn't just about theory; it's about practical, actionable strategies that deliver real results.  It's a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
               </p>
               <span className="text-white text-sm">
                 <ul>
@@ -65,7 +65,7 @@ const AboutUs = () => {
                 placeholder="Your email address"
                 className="bg-white"
               />
-              <Button className="bg-green-600 hover:bg-green-700 text-white">
+              <Button className="bg-gradient-to-r from-slate-800 to-red-600 hover:from-red-700 hover:to-red-900 text-white transition duration-500">
                 Watch Training
               </Button>
             </div>

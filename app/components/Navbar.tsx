@@ -48,9 +48,9 @@ const Navbar = () => {
           </div>
           <div className="absolute left-1/2 transform -translate-x-1/2 ">
             <Image
-              src="/assets/logo-rocky-saggoo.png"
+              src="/assets/new-logo-rocky-saggoo.jpg"
               alt="Rocky Saggoo"
-              className="h-20"
+              className="h-20 rounded-full"
               width={200}
               height={100}
             />

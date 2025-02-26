@@ -31,7 +31,7 @@ const Hero = () => {
 
               </h1>
               <p className="text-xl md:text-3xl text-center max-w-[700px] font-futuraBook">
-              Trained by the best, now it's your turn. Discover the personal development secrets that have transformed the lives of top performers, from A-list celebrities to influential leaders.
+              Trained by the best, now it&apos;s your turn. Discover the personal development secrets that have transformed the lives of top performers, from A-list celebrities to influential leaders.
 
               </p>
 
@@ -44,7 +44,7 @@ const Hero = () => {
                     placeholder="Enter your email here and we'll send you some 'magic'..."
                     className="w-full h-14 pl-12 pr-32 rounded-full bg-white/90 text-black text-lg"
                   />
-                  <Button className="absolute group right-1 h-12 px-8 rounded-full bg-[#CCFF00] hover:bg-[#CCFF00]/90 text-black font-bold">
+                  <Button className="absolute group right-1 h-12 px-8 rounded-full bg-gradient-to-r from-red-400 to-red-700 hover:from-red-600 hover:to-red-800 text-white font-bold">
                     Do it
                     <FaArrowRightLong className="ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                   </Button>
@@ -60,10 +60,10 @@ const Hero = () => {
                       {[...Array(4)].map((_, i) => (
                         <Star
                           key={i}
-                          className="w-4 h-4 fill-[#CCFF00] text-[#CCFF00]"
+                          className="w-4 h-4 text-red-500 fill-red-500"
                         />
                       ))}
-                      <StarHalf className="w-4 h-4 fill-[#CCFF00] text-[#CCFF00]" />
+                      <StarHalf className="w-4 h-4 fill-red-500 text-red-500" />
                     </div>
                     <span>4.8 stars out of 6,016 reviews</span>
                   </div>

@@ -5,32 +5,37 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
+import Image from "next/image";
 const testimonials = [
   {
     quote:
       "Working with Rocky has been a game-changer. He helped me unlock a level of confidence I never knew I had.",
     author: "Business Executive",
+    image: "/assets/profile-pic-chris.jpg"
   },
   {
     quote:
       "Rocky's coaching has transformed my communication skills. I'm now a much more effective leader and speaker.",
     author: "Entrepreneur",
+    image: "/assets/profile-pic-chris.jpg"
   },
   {
     quote:
       "I finally have the clarity and direction I need to pursue my dreams. And my new style? It's totally me!",
     author: "Young Professional",
+    image: "/assets/profile-pic-chris.jpg"
   },
   {
     quote:
       "The insights I've gained from Rocky's program have been invaluable. My career has taken off in ways I never imagined.",
     author: "Tech Leader",
+    image: "/assets/profile-pic-chris.jpg"
   },
   {
     quote:
       "Rocky's approach is refreshing and effective. I've seen remarkable growth in both my personal and professional life.",
     author: "Creative Director",
+    image: "/assets/profile-pic-chris.jpg"
   },
 ];
 
@@ -45,7 +50,7 @@ const TestimonialCarousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    pauseOnHover: false,
+    pauseOnHover: true,
     arrows: false,
     responsive: [
       {
@@ -110,7 +115,16 @@ const TestimonialCarousel = () => {
           <Slider ref={sliderRef} {...settings} className="testimonial-slider">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="px-2">
-                <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 border border-gray-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20 h-[230px] flex flex-col justify-between">
+                <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 border border-gray-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20 h-[350px] flex flex-col justify-between">
+                  <div className="flex justify-center mb-6">
+                    <Image
+                      width={100}
+                      height={100}
+                      src={testimonial.image} 
+                      alt={`${testimonial.author}'s profile`}
+                      className="w-16 h-16 rounded-full object-cover"
+                    />
+                  </div>
                   <div className="relative">
                     <svg
                       className="absolute top-0 left-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-purple-400 opacity-20"

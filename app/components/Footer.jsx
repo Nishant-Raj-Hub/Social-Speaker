@@ -184,11 +184,10 @@ const Footer = () => {
               </div> */}
                <div className="flex flex-col  items-center justify-between pb-14 border-b border-gray-500 gap-8">
             <a href="https://pagedone.io/" className="">
-              <div className="bg-white rounded p-2">
+              <div className="">
                 <img
-                  className=""
-                  src="https://vps6.matrixwebstudio.com/peptalkindia.com/wp-content/uploads/2019/04/Logo-4.png
-"
+                  className="rounded-full"
+                  src="/assets/new-logo-rocky-saggoo.jpg"
                   alt="Logo"
                 />
               </div>
