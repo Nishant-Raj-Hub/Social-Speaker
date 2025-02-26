@@ -21,8 +21,8 @@ const OurOffering = () => {
                 HIRE US TO DO IT FOR YOU
               </span>
 
-              <h3 className="text-white lg:text-9xl text-7xl font-extrabold mb-6 font-futuraCondensed">
-                AGENCY
+              <h3 className="text-white lg:text-6xl text-lg font-extrabold mb-6 font-futuraCondensed">
+              Super Human Skills
               </h3>
 
               <p className="text-zinc-300 mb-8 max-w-md text-lg">
@@ -62,8 +62,8 @@ const OurOffering = () => {
                 LEARN HOW TO DO IT YOURSELF
               </span>
 
-              <h3 className="text-white lg:text-9xl text-7xl font-extrabold mb-6 font-futuraCondensed">
-                COURSES
+              <h3 className="text-white lg:text-6xl text-7xl font-extrabold mb-6 font-futuraCondensed">
+              Person To Personality
               </h3>
 
               <p className="text-zinc-300 mb-8 max-w-md text-lg">

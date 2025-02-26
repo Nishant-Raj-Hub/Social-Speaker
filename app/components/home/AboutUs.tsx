@@ -31,14 +31,30 @@ const AboutUs = () => {
           {/* Left column - Text content */}
           <div className="space-y-6">
             <p className="text-sm text-gray-400 uppercase tracking-wider">
-              SCALING YOUR ECOM BRAND IS SIMPLE.
+              For years, Rocky Saggoo has been the go-to personal development coach for high-achieving individuals, from A-list celebrities and CEOs to politicians, bureaucrats, and entrepreneurs. He's the secret weapon behind their success stories, the catalyst for their transformations.  And now, he's bringing his proven methods to you.
+
             </p>
-            <h1 className="text-3xl md:text-4xl font-bold">
-              <span className="bg-gradient-to-r from-green-500 to-green-300 text-transparent bg-clip-text">
-                Grow Your Fashion eCom Brand
-              </span>{" "}
-              <span className="text-white">
-                Using Our Scientific Advertising Methods.
+            <h1 className="md:text-4xl font-bold">
+              {/* <span className="bg-gradient-to-r leading-4 from-green-500 to-green-300 text-transparent bg-clip-text text-xl">
+                The Rocky Saggoo Method isn't just about theory; it's about practical, actionable strategies that deliver real results.  It's a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
+
+              </span>{" "} */}
+              <p className="bg-gradient-to-r leading-7 from-green-500 to-green-300 text-transparent bg-clip-text text-lg">The Rocky Saggoo Method isn't just about theory; it's about practical, actionable strategies that deliver real results.  It's a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
+              </p>
+              <span className="text-white text-sm">
+                <ul>
+                  <li>
+                  -  Master the Art of Communication: Become a captivating speaker, a persuasive negotiator, and a master of interpersonal relationships. Learn to command attention, build rapport, and communicate your vision with clarity and confidence.
+
+                  </li>
+                  <li>- Cultivate an Unshakeable Mindset: Overcome limiting beliefs, conquer your fears, and develop the mental resilience to handle any challenge. Learn to harness the power of positive thinking and cultivate a winning attitude.
+                  </li>
+                  <li>- Elevate Your Personal Brand: Craft a powerful personal style that reflects your unique strengths and projects confidence and authority. Learn to make a lasting impression and command respect in any setting.
+                  </li>
+                  <li>- Unlock Your Leadership Potential: Develop the leadership skills necessary to inspire others, build high-performing teams, and achieve your goals. Learn to motivate, delegate, and lead with vision and integrity.
+                  </li>
+                </ul>
+
               </span>
             </h1>
 

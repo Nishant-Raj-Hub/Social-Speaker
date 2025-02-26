@@ -24,14 +24,15 @@ const Hero = () => {
           {/* Content */}
           <div className="absolute top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-white px-4">
             <div className="flex flex-col items-center justify-center w-full h-full">
-              <h1 className="text-7xl font-bold md:text-[110px] uppercase font-futuraCondensed text-center mb-6">
-                Like steroids<span className="font-futuraBold">*</span>
+              <h1 className="   font-bold md:text-[40px] leading-tight  uppercase font-futuraCondensed text-center mb-6">
+              The Secret Weapon of CEOs, Celebrities, and YOU:<span className="font-futuraBold">*</span>
                 <br />
-                For Business
+                Unleash Your Untapped Potential with Rocky Saggoo
+
               </h1>
               <p className="text-xl md:text-3xl text-center max-w-[700px] font-futuraBook">
-                Growing a business is hard. We make it a whole lot easier, more
-                predictable, less stressful, and more fun.
+              Trained by the best, now it's your turn. Discover the personal development secrets that have transformed the lives of top performers, from A-list celebrities to influential leaders.
+
               </p>
 
               {/* Email subscription form */}
