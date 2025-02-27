@@ -15,10 +15,12 @@ const CallToAction = () => {
           alt="Light mode dashboard mockup"
         /> */}
         {/* Dark Mode Image */}
-        <img
+        <Image
           className="w-full "
           src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
           alt="Dark mode dashboard mockup"
+          width={1000}
+          height={1000}
         />
 
         {/* Text Content */}
@@ -32,9 +34,9 @@ const CallToAction = () => {
             goals and how Rocky can help you achieve them.
           </p>
           <p className="text-white">
-            Explore Coaching Programs: Learn more about Rocky&apos;s personalized
-            coaching programs, including the personality makeover program, and
-            find the one that&apos;s right for you.
+            Explore Coaching Programs: Learn more about Rocky&apos;s
+            personalized coaching programs, including the personality makeover
+            program, and find the one that&apos;s right for you.
           </p>
           <p className="text-white">
             Join the Community: Connect with like-minded individuals and become

@@ -31,7 +31,7 @@ const AboutUs = () => {
           {/* Left column - Text content */}
           <div className="space-y-6">
             <p className="text-sm text-gray-400 uppercase tracking-wider">
-              For years, Rocky Saggoo has been the go-to personal development coach for high-achieving individuals, from A-list celebrities and CEOs to politicians, bureaucrats, and entrepreneurs. He's the secret weapon behind their success stories, the catalyst for their transformations.  And now, he's bringing his proven methods to you.
+              For years, Rocky Saggoo has been the go-to personal development coach for high-achieving individuals, from A-list celebrities and CEOs to politicians, bureaucrats, and entrepreneurs. He&apos;s the secret weapon behind their success stories, the catalyst for their transformations.  And now, he&apos;s bringing his proven methods to you.
 
             </p>
             <h1 className="md:text-4xl font-bold">
@@ -39,7 +39,7 @@ const AboutUs = () => {
                 The Rocky Saggoo Method isn't just about theory; it's about practical, actionable strategies that deliver real results.  It's a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
 
               </span>{" "} */}
-              <p className="bg-gradient-to-r leading-7 from-red-500 to-slate-200 text-transparent bg-clip-text text-lg">The Rocky Saggoo Method isn't just about theory; it's about practical, actionable strategies that deliver real results.  It's a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
+                <p className="bg-gradient-to-r leading-7 from-red-500 to-slate-200 text-transparent bg-clip-text text-lg">The Rocky Saggoo Method isn&apos;t just about theory; it&apos;s about practical, actionable strategies that deliver real results.  It&apos;s a holistic approach that addresses every aspect of your personal and professional development, empowering you to:
               </p>
               <span className="text-white text-sm">
                 <ul>
